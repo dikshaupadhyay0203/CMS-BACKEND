@@ -1,6 +1,6 @@
 import { v2 as cloudinary } from 'cloudinary';
 
-async function() {
+async function () {
 
     // Configuration
     cloudinary.config({ 
