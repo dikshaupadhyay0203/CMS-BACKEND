@@ -1,5 +1,6 @@
 import Artifact from "../models/artifact.js";
-
+import cloudinary from "cloudinary";
+import fs from "fs";
 /**
  * Create a new artifact
  */
