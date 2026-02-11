@@ -3,7 +3,9 @@ import cors from "cors";
 import dotenv from "dotenv";
 import morgan from "morgan";
 import authRoutes from "./routes/auth.routes.js";
-import artifactRoutes from "./routes/artifact.js";
+import likes from "./routes/likes.routes.js";
+import comment from "./routes/comment.routes.js";
+import artifactRoutes from "./routes/artifact.routes.js";
 import cookieParser from "cookie-parser";
 const app = express();
 
